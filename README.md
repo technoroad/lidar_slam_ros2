@@ -1,3 +1,28 @@
+> [!NOTE]
+> **This is an unofficial mirror of
+> [rsasaki0109/lidar_slam_ros2](https://github.com/rsasaki0109/lidar_slam_ros2).**
+> It is maintained by technoroad to keep
+> [khepri_slams](https://github.com/technoroad/khepri_slams) buildable.
+> It is not affiliated with or endorsed by the upstream author.
+>
+> - Snapshot taken on 2026-11-13. Not synced with upstream.
+> - khepri_slams uses the tag `technoroad/jazzy-v1`. It is upstream `jazzy`
+>   (`aa21038ca1b12dd1ed1738279882bcc5d5cc8763`) with one change: the
+>   `Thirdparty/ndt_omp_ros2` submodule points to
+>   [technoroad/ndt_omp_ros2](https://github.com/technoroad/ndt_omp_ros2).
+> - On other branches the submodule still points to upstream. To use the
+>   mirror, run:
+>   `git submodule set-url Thirdparty/ndt_omp_ros2 https://github.com/technoroad/ndt_omp_ros2.git`
+> - Upstream pull request refs are preserved under `refs/upstream-pull/*`.
+> - Please report bugs and send contributions to the upstream repository.
+> - License: BSD 2-Clause, unchanged from upstream (see `LICENSE`).
+>
+> 本リポジトリは rsasaki0109/lidar_slam_ros2 の非公式ミラーです。
+> khepri_slams のビルドを維持するために technoroad が保管しています。
+> タグ `technoroad/jazzy-v1` は、本家 jazzy の submodule の参照先を
+> technoroad/ndt_omp_ros2 に変更しただけのものです。
+> 不具合報告や貢献は本家へお願いします。
+
 lidarslam_ros2
 ====
 ![humble](https://github.com/rsasaki0109/lidarslam_ros2/workflows/humble/badge.svg)  
